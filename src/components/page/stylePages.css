@@ -1,0 +1,230 @@
+/* *************************************Activity***************************************** */
+.card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* ייבא את כל הפריטים לאמצע */
+  gap: 20px;
+}
+
+.card {
+  width: 300px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* יוצר רווח בין הכרטיסים */
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  margin-bottom: 15px;
+}
+
+.register-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+  background-color: #0056b3;
+}
+
+.card-footer {
+  background-color: #f7f7f7;
+  padding: 10px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+/* .card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  margin: 10px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.register-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+  background-color: #0056b3;
+}
+
+.card-footer {
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="button"] {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="button"]:hover {
+  background-color: #218838;
+} */
+
+/* *************************************About***************************************** */
+.about-container {
+    display: flex; /* יישור אופקי */
+    flex-direction: column; /* יישור כל התוכן בצורה אנכית */
+    align-items: center; /* מרכז כל התוכן */
+    padding: 2rem; /* ריפוד */
+  }
+  
+  .about-image img {
+    width: 200%; /* הגדרת התמונה ל-100% מהרוחב */
+    height: auto; /* לשמירת יחס הגובה-רוחב */
+    border-radius: 10px; /* קצוות מעוגלים */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* הצללה */
+  }
+  
+  .about-content {
+    max-width: 800px; /* להגבלת רוחב הטקסט */
+    text-align: right; /* ליישור הטקסט לימין */
+  }
+  
+  .about-content h1 {
+    font-size: 2rem; /* גודל כותרת */
+    margin-bottom: 1rem; /* ריווח מתחת לכותרת */
+  }
+  
+  .about-content p {
+    font-size: 1.2rem; /* גודל טקסט הפסקה */
+    line-height: 1.6; /* מרווח בין השורות */
+    margin-bottom: 1rem; /* ריווח בין הפסקאות */
+  }
+  

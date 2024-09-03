@@ -1,0 +1,51 @@
+nav{
+  background-color:#555;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 10px; /* ריווח פנימי */
+  color: white; 
+  text-align: center; /* יישור הטקסט */
+
+}
+#nav .link {
+  font-family:"Fb Avia";
+  color: #fff; /* צבע הטקסט של הקישורים */
+  text-decoration: none; /* ביטול קו תחתון בקישורים */
+  padding: 10px 20px; /* ריווח פנימי בין הקישורים */
+  margin: 0 5px; /* ריווח חיצוני בין הקישורים */
+  display: inline-block; /* הקישור מוצג כבלוק בתוך שורה */
+  transition: background-color 0.3s; /* אנימציה של שינוי צבע רקע */
+}
+
+#nav .link:hover {
+  text-decoration: underline; 
+  background-color: #555; /* צבע הרקע בעת מעבר עכבר */
+}
+
+#nav .link.active {
+  background-color: #111; /* צבע הרקע כאשר הקישור פעיל */
+}
+
+/* עיצוב נוסף */
+nav ul {
+  list-style: none; /* ביטול הכדורים מהרשימה */
+  padding: 0; /* אין ריווח פנימי ברשימה */
+  margin: 0; /* אין ריווח חיצוני ברשימה */
+}
+
+nav ul li {
+  display: inline; /* כל פריט ברשימה מוצג בשורה */
+}
+
+nav ul li a {
+  color: #333; /* צבע הטקסט של הקישורים */
+  text-decoration: none; /* ביטול קו תחתון בקישורים */
+  padding: 10px 15px; /* ריווח פנימי בין הקישורים */
+  transition: background-color 0.3s; /* אנימציה של שינוי צבע רקע */
+}
+
+nav ul li a:hover {
+  background-color: #ddd; /* צבע הרקע בעת מעבר עכבר */
+}

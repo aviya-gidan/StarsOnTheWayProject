@@ -1,0 +1,18 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    height: 90px;
+    padding: 0 20px; 
+    flex-wrap: wrap;
+
+}
+.link{
+    color: cornsilk;
+    size: large;
+    width: 200px;
+}
+
+
+
